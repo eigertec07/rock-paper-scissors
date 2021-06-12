@@ -2,9 +2,7 @@ radio.onReceivedNumber(function (receivedNumber) {
     Opp2 = receivedNumber
     basic.showNumber(Opp2)
     if (hand > Opp2) {
-        if (hand > Opp2) {
-            music.playMelody("C5 - C5 C5 C5 - - - ", 159)
-        }
+        music.playMelody("C5 - C5 C5 C5 - - - ", 159)
     }
 })
 input.onGesture(Gesture.Shake, function () {
